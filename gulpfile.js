@@ -108,5 +108,5 @@ exports.default = series(
     openBrowser, 
     server,
     cacheBustTask,
-    watchTask
+    watchTasks
 );
