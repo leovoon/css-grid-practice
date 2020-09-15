@@ -1,0 +1,24 @@
+{
+  "name": "css-grid-practical",
+  "version": "1.0.0",
+  "description": "Css grid examples",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git"
+  },
+  "author": "leovoon",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-terser-js": "^5.2.2"
+  },
+  "dependencies": {}
+}
