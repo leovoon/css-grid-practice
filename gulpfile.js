@@ -64,7 +64,7 @@ function imgMinifiedTask() {
 
 // Watch task: watch SCSS and JS files for changes
 // If any change, run scss and js tasks simultaneously
-function watchTask(){
+function watchTasks(){
     watch([files.scssPath, files.jsPath, files.imgPath],
         {interval: 1000, usePolling: true}, //Makes docker work
         series(
