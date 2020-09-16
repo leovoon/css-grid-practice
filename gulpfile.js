@@ -83,7 +83,6 @@ exports.deploy = series( parallel(scssTask, jsTask, imgMinifiedTask));
 
 exports.default = series(
     parallel(scssTask, jsTask, imgMinifiedTask), 
-    server,
     cacheBustTask,
     watchTasks
 );
