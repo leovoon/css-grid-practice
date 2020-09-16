@@ -37,6 +37,9 @@ h2 {
   justify-items: center;
   align-items: center;
   background: $one;
+  .grid-item {
+    height: 100%;
+  }
 }
 
 .shuffleBtn {
